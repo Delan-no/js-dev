@@ -1,0 +1,18 @@
+#ball {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 70px; 
+    aspect-ratio: 1;
+    border-radius: 50%; 
+    background-color: blue; 
+    
+}
+/* body{
+    background-image: radial-gradient(
+        farthest-corner at 70px 40px,
+        rgb(66, 62, 67) 15%,
+        rgb(5, 3, 12) 50%,
+        rgb(118, 123, 109) 35%
+      );
+} */

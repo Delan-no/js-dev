@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Dragon Ball</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+
+    <body>
+        <div id="container">
+            <header>
+                <img src="images/yellow_goku.gif" alt="First Player image" id="firstPlayerImage"/>    
+                <img src="images/blue_goku.gif" alt="second Player image" id="secondPlayerImage"/> 
+                <p id="firstPlayerName"  class="playerName"> Player 1</p>
+                <p id="secondPlayerName" class="playerName"> Player 2</p>
+                <div id="LscoreBox" class="scoreLabel"><p id="Lscore">0</p></div>
+                <div id="RscoreBox" class="Rscore scoreLabel"><p id="Rscore">0</p></div>
+                <button id="pause" disabled></button>
+            </header>
+            
+            <div id="loader">
+            </div>
+            <footer></footer>
+            <div class="popup" id="popup">
+                <div class="popuptext" id="myPopup">
+                    <h3>Menu</h3>
+                    <hr>
+                    <button type="button" class="btn btn-primary btn-lg btn-block" id="resume">Resume</button>
+                    <button type="button" class="btn btn-primary btn-lg btn-block" id="howToPlay" onclick="location.href = 'howToPlay.html';">How To Play</button>
+                    <button type="button" class="btn btn-primary btn-lg btn-block" id="mainMenu" onclick="location.href = 'index.html';">Main Menu</button>
+                </div>
+            </div>
+        </div>
+        
+        <script src="js/loadingFunction.js"></script>
+        <script src="js/components.js"> </script>
+        <script src="js/gameScreen.js"></script>
+        <script src="js/fireBall.js"></script>
+        <script src="js/movements.js"></script>
+        <script src="js/winning.js"></script>
+        <script src="js/scoring.js"></script>
+    </body>
+
+</html>

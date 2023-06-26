@@ -1,0 +1,14 @@
+body
+{
+    background-color: black;
+}
+
+#zombietomb
+{
+    width:100px;
+    height:100px;
+    /* overflow: hidden; */
+    margin-left: 5rem;
+    border: 1px solid white;
+    background: url("../img/zombie.png");
+}
